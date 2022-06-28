@@ -12,19 +12,19 @@
     <title>Projeto de Sistemas</title>
 </head>
 <body>
+    <div class="center">
     <g id="skeleton">
-        <div class="center">
         <header>
                 <div id="title" >
                     <h1>Projeto de</h1>
                     <h1>Sistemas</h1>
                 </div>
-                    <ul>
-                        <a href="#products"><li>Produtos</li></a>
-                        <a href="#equipe"><li>Equipe Pedagógica</li></a>
-                    </ul>
-            </g>
-        </header>
+                <ul>
+                    <a href="#products"><li>Produtos</li></a>
+                    <a href="#equipe"><li>Equipe Pedagógica</li></a>
+                </ul>
+            </header>
+        </g>
         <main>
             <aside>
                 <div class="dinamico"  data-aos="fade-down" data-aos-duration="1000">
@@ -42,7 +42,7 @@
         </div>
         <section class="produto" data-aos-duration="2000" data-aos="flip-left" data-aos-easing="ease-out-cubic">
             <article>
-                <img src="./components/images/trator.png" alt="fundo" style="max-width: 600px">
+                <img src="./components/images/trator.png" alt="fundo" style="max-width: 600px" id="img1">
             </article>
             <aside>
                 <h2><span>Use.It</span></h2>
@@ -51,7 +51,7 @@
                 <a href="#">Visitar Página do Produto</a>
             </aside>
         </section>
-        <section class="produto" data-aos-duration="2000" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+        <section class="produto" data-aos-duration="2000" data-aos="flip-left" data-aos-easing="ease-out-cubic" id="bender">
             <aside>
                 <h2><span>Bender APP</span></h2>
                 <p>Bender App é um aplicativo android com o intuito de ajudar você acadêmico(a) a ter acesso à informações do seu
@@ -61,12 +61,12 @@
                 <a href="https://nnmf.github.io/" target="_blank">Visitar Página do Produto</a>
             </aside>
             <article>
-                <img src="./components/images/bender.png" alt="fundo" style="max-width: 350px">
+                <img src="./components/images/bender.png" alt="fundo" style="max-width: 350px" id="img2">
             </article>
         </section>
         <section class="produto" data-aos-duration="2000" data-aos="flip-left" data-aos-easing="ease-out-cubic">
             <article>
-                <img src="./components/images/coding.png" alt="fundo" style="max-width: 400px">
+                <img src="./components/images/coding.png" alt="fundo" style="max-width: 400px"  id="img3">
             </article>
             <aside>
                 <h2><span>DogCode</span></h2>
@@ -87,15 +87,15 @@
                     <div class="equipe"></div>
                     <p>Adão Henrique<br>Apoio Pedagógico</p>
                 </div>
+            </section>
         </div>
-        </section>
-        </div>
-    </g>
+    <!-- </g> -->
+    </div>
 
     <footer>
         <img src="./components/images/logoUFT.png" width="80">
-        <img src="./components/images/marcaUFT.png" width="300">
         <img src="./components/images/CCOMP.png" width="100">
+        <img src="./components/images/marcaUFT.png" width="300">
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
